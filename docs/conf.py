@@ -31,6 +31,10 @@ release = '0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.autodoc',  # Support automatic documentation
+    'sphinx.ext.coverage', # Automatically check if functions are documented
+    'sphinx.ext.mathjax',  # Allow support for algebra
+    'sphinx.ext.viewcode', # Include the source code in documentation
 ]
 
 # Add any paths that contain templates here, relative to this directory.
