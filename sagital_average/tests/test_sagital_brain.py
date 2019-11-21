@@ -13,7 +13,7 @@ def test_average():
     np.savetxt("brain_sample.csv", data_input, fmt='%d', delimiter=',')
 
     # run python program
-    subprocess.run(["python", "sagital_brain.py"])
+    subprocess.run(["python", "sagital_average/sagital_brain.py"], check=True)
 
     # Check result
     result = np.loadtxt("brain_average.csv",  delimiter=',')
