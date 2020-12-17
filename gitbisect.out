@@ -1,0 +1,12 @@
+running python sagital_brain.py brain_sample.csv
+0251e1b6819f3bcdcd4f478d7208e9b723635fb0 is the first bad commit
+commit 0251e1b6819f3bcdcd4f478d7208e9b723635fb0
+Author: NuttamasT <Nuttamas.tubsrinuan.20@ucl.ac.uk>
+Date:   Thu Dec 17 21:21:19 2020 +0000
+
+    Create bugs
+
+:000000 100644 0000000000000000000000000000000000000000 09717d2895db7c2e2587a2a9d18ab3dbf1233d76 A	CreateFalseFile.py
+:100644 100644 d30573edd18bddab5ef33fd4a627a17a1eb7bbc1 c1f7fbbb7e77f9a4c53558688b7bbe20cd0d15b5 M	brain_average.csv
+:100644 100644 7b809c65eef69bc79abcb716210e94e84667f531 d0b903532502bc32a79c0c0770db8503bae1d65b M	brain_sample.csv
+bisect run success
