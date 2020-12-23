@@ -7,7 +7,7 @@ data_input[-1, :] = 1
 np.savetxt("brain_sample.csv", data_input, fmt='%d', delimiter=',')
 
 # Run sagital brain file to generate output
-subprocess.run(["python", "sagital_brain.py"])
+subprocess.run(["python", "sagital_brain.py"], check = True)  # Add 'check' to be abe to run a file and see the result
 
 # Load output
 loaded = np.loadtxt('brain_average.csv', delimiter=',')
