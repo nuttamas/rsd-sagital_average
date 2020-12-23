@@ -1,6 +1,6 @@
 from argparse import ArgumentParser
 from argparse import ArgumentDefaultsHelpFormatter
-from .sagital_brain import run_averages
+from ..sagital_brain import run_averages
 
 def process():
     parser = ArgumentParser(description="Calculates the average for each sagital-horizontal plane.",
