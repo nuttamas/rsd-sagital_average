@@ -20,8 +20,9 @@ def run_averages(file_input="brain_sample.csv", file_output="brain_average.csv")
     # write it out on my file
     np.savetxt(file_output, averages, fmt="%.1f", delimiter=",")
 
+
 # Comment this part out because we already make a command.py file with a process() function
-#if __name__ == "__main__":
+# if __name__ == "__main__":
 #    parser = ArgumentParser(
 #        description="Calculates the average for each sagital-horizontal plane.",
 #        formatter_class=ArgumentDefaultsHelpFormatter,
